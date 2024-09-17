@@ -1,0 +1,232 @@
+@media (max-width: 1000px) {
+
+
+    .header-top {
+        display: none;
+    }
+
+    .even-columns {
+        gap: 6rem;
+    }
+
+    .even-columns>* {
+        width: fit-content;
+        justify-self: center;
+
+    }
+
+
+    .welcome .right-side {
+        justify-self: center;
+        width: 100%;
+        /* max-width: 90%; */
+    }
+
+
+
+    /* Header Start */
+
+
+
+    .header-top-mobile {
+        display: block;
+        margin-top: 5rem;
+        background-color: #fff;
+
+    }
+
+    .header-top .container {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .contact-info {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        color: #000000;
+    }
+
+    .contact-info div {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+
+    .language {
+        margin-top: 2rem;
+    }
+
+    .language select {
+        background: transparent;
+        color: #000000;
+        border: none;
+        outline: none;
+
+    }
+
+    .language select option {
+        background: transparent;
+        color: #000;
+        border: none;
+        font-size: 16px;
+
+    }
+
+    header {
+        position: relative;
+    }
+
+    .mobile-menu-btn {
+        border: none;
+        background: transparent;
+        outline: none;
+        display: inline-block;
+    }
+
+    .primary-navigation {
+        display: none;
+    }
+
+    .primary-navigation[data-visible] {
+        display: block;
+        position: absolute;
+        top: 99%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 6;
+        padding: 3rem;
+        box-shadow: 0px 20px 20px #b8b8b8;
+    }
+
+    .primary-navigation ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .primary-navigation {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .primary-navigation button {
+        margin-inline: auto;
+        margin-top: 3rem;
+    }
+
+    section {
+        /* --section-gap:0rem; */
+    }
+
+
+    /* Hero Section Start */
+    .hero {
+        padding: 8rem 0rem;
+
+    }
+
+    .hero .container button {
+        --flow-spacer: 4rem;
+    }
+
+    .welcome {
+        padding: 10rem 0rem;
+    }
+
+    .service {
+        padding: 7.4rem 0rem;
+    }
+
+    .trusted {
+        padding: 10rem 0rem;
+    }
+
+    .question {
+        padding: 7.6rem 0rem;
+    }
+
+
+
+    /* Question Section */
+    .question form .email-phone {
+        display: flex;
+        gap: 0rem;
+        flex-wrap: wrap;
+      }
+      
+      .question form .email-phone input {
+        flex: 1 1 400px;
+      }
+      
+      .question form input,
+      textarea {
+        width: 100%;
+        margin-top: 2rem;
+        border: none;
+        background-color: transparent;
+        font-size: var(--fs-400);
+        outline: none;
+        padding: 1rem;
+        border-bottom: 1.3px solid #2222224D;
+      
+      }
+
+      .question form input[type="submit"]{
+        margin-top: 6.5rem;
+      }
+
+      /* Footer */
+      .footer-hr{
+        display: none;
+      }
+
+      .footer-bottom {
+        margin-top: -2rem;
+        max-width: 38.5rem;
+        padding: 3rem 0rem;
+        padding-top: 0;
+        margin-inline: auto;
+        display: flex;
+        gap: 6.8rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: fit-content;
+    }
+
+      
+      .footer-bottom ul{
+        order: -1;
+      }
+
+
+
+
+      @media (min-width: 430px) {
+    .footer .footer-menus{
+        gap: 7.8rem;
+      }
+}
+      
+}
+
+@media (max-width: 430px) {
+    .footer-menus{
+        width: 100%;
+        gap: 3.5rem;
+        flex-wrap: wrap;
+
+      }
+}
+
+
