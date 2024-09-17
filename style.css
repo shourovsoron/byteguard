@@ -355,6 +355,7 @@ h3 {
 .country-flag {
   width: 100%;
   max-width: 3.55rem;
+  object-fit: cover;
   height: 3.55rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -363,6 +364,18 @@ h3 {
   -o-border-radius: 50%;
 }
 
+
+.country-flag-mob {
+  width: 100%;
+  max-width: 3.55rem;
+  object-fit: cover;
+  height: 3.55rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 
 
 header {}
