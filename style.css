@@ -485,6 +485,10 @@ header {}
   color: white;
 }
 
+.service .cards-column .card:nth-child(2) p{
+  color: white;
+
+}
 .service .cards-column .card h3 {
   font-weight: var(--fw-bold);
   margin-top: 1.9rem;
@@ -496,6 +500,7 @@ header {}
   text-align: center;
   font-size: var(--fs-200);
   line-height: 2.2rem;
+  color: var(--body-text-100);
 }
 
 /* Service Section End */

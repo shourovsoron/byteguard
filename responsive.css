@@ -240,6 +240,21 @@
         flex-wrap: wrap;
 
       }
-}
+
+        .even-columns>* {
+            width: 100%;
+            justify-content: flex-start;
+            justify-self: self-start;
+         
+        }
+
+        .footer-logo{
+            max-width: 31.1rem;
+        }
+    
+
+  
+      
+    }       
 
 
