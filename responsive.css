@@ -85,6 +85,19 @@
         position: relative;
     }
 
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 0rem;
+    }
+
+    .brand-area {
+        display: inline-block;
+        max-width: 9.66rem;
+        width: 100%;
+    }
+
     .mobile-menu-btn {
         border: none;
         background: transparent;
