@@ -108,6 +108,9 @@ h2 {
 
 h3 {
   font-size: var(--fs-400);
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+
 }
 
 
@@ -180,6 +183,7 @@ h3 {
 /* font size */
 .fs-primary-heading {
   font-size: var(--fs-primary-heading);
+  font-family: var(--ff-secondary);
 }
 
 .fs-secondary-heading {
